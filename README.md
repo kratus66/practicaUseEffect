@@ -1,12 +1,57 @@
-# React + Vite
+Aquí tienes un ejemplo de README.md para tu proyecto sobre la práctica de useEffect en React. Puedes copiar este contenido directamente a tu archivo README.md en la raíz del proyecto:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+markdown
+Copiar
+Editar
+# Práctica con useEffect en React ⚛️
 
-Currently, two official plugins are available:
+Este proyecto es una práctica sencilla para aprender y entender cómo funciona el hook `useEffect` en React. Se hace uso de una API pública de personajes de Harry Potter para mostrar tarjetas con sus datos y un modal con detalles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- CSS
+- Fetch API
+- Git y GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/kratus66/practicaUseEffect.git
+Accede al directorio del proyecto:
+
+
+cd practicaUseEffect
+Instala las dependencias:
+npm install
+Inicia la aplicación:
+npm run dev
+Asegúrate de tener Node.js y npm instalados en tu máquina.
+
+🧠 ¿Qué se practica?
+Uso básico de useEffect.
+
+Peticiones a APIs con fetch.
+
+Renderizado condicional.
+
+Manejo de estados con useState.
+
+Renderizado de listas con map.
+
+Manejo de modales y detalles de elementos.
+
+Uso de key único en listas usando id.
+
+🌐 API utilizada
+https://hp-api.onrender.com/api/characters
+
+Esta API devuelve un arreglo con personajes del universo de Harry Potter.
+
+✍️ Autor
+kratus66
+
+¡Gracias por visitar este repositorio! 😄 Si te sirvió para aprender, considera dejar una ⭐ en GitHub.
